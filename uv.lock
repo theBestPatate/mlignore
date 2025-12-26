@@ -391,11 +391,7 @@ dependencies = [
     { name = "typer" },
 ]
 
-<<<<<<< HEAD
-[package.dev-dependencies]
-=======
 [package.optional-dependencies]
->>>>>>> dev
 docs = [
     { name = "mkdocs" },
     { name = "mkdocs-material" },
@@ -404,12 +400,9 @@ docs = [
 
 [package.metadata]
 requires-dist = [
-<<<<<<< HEAD
-=======
     { name = "mkdocs", marker = "extra == 'docs'", specifier = ">=1.6.1" },
     { name = "mkdocs-material", marker = "extra == 'docs'", specifier = ">=9.7.1" },
     { name = "mkdocstrings", extras = ["python"], marker = "extra == 'docs'", specifier = ">=1.0.0" },
->>>>>>> dev
     { name = "pathspec", specifier = ">=0.12.1" },
     { name = "tree-sitter", specifier = ">=0.25.2" },
     { name = "tree-sitter-css", specifier = ">=0.25.0" },
@@ -417,17 +410,7 @@ requires-dist = [
     { name = "tree-sitter-python", specifier = ">=0.25.0" },
     { name = "typer", specifier = ">=0.21.0" },
 ]
-<<<<<<< HEAD
-
-[package.metadata.requires-dev]
-docs = [
-    { name = "mkdocs", specifier = ">=1.6.1" },
-    { name = "mkdocs-material", specifier = ">=9.7.1" },
-    { name = "mkdocstrings", extras = ["python"], specifier = ">=1.0.0" },
-]
-=======
 provides-extras = ["docs"]
->>>>>>> dev
 
 [[package]]
 name = "packaging"
